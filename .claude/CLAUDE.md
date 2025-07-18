@@ -22,11 +22,12 @@ Below is a list of bash tools that should be available to use:
 
 Please use the `--help` flag with any of these commands when needed.
 
-# Code style 
+# Code style & Philosophy 
 
 - In general, use tabs over spaces. 
 - Whenever possible, follow software engineering best practices and write consistent and DRY code.
 - Whenever possible, prefer standard lib tooling over dependencies. Think of each dependency as an added liability.
+- Prefer clear or "obvious" code over clever solutions. 
 
 # Workflow 
 
