@@ -30,7 +30,7 @@ Below is a list of bash tools that should be available to use:
 - `git` for generic git commands if needed. IMPORTANT: you should always consult
   with the user before interacting with git directly.
 - `docker` for interacting with OCI compliant containers. IMPORTANT: you should
-  always consule with the user before pulling new containers or deleting
+  always consult with the user before pulling new containers or deleting
   containers
 
 Please use the `--help` flag with any of these commands when needed.

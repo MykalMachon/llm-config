@@ -1,7 +1,7 @@
 ---
 allowed-tools: Bash(git status:*), Bash(git add:*), Bash(gh *)
 description: Fix a GitHub issue. Provide the issue number (i.e. /fix-github-issue 123)
-arguement-hint: [issueNumber]
+argument-hint: [issueNumber]
 ---
 
 Please analyze and fix the GitHub issue: $ARGUMENTS.
