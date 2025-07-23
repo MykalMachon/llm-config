@@ -9,6 +9,8 @@ applications:
   convert existing JavaScript to TypeScript unless asked.
 - I prefer to use Deno when possible due to it's including formatting, linting,
   testing, and compiling features alongside a solid std lib.
+- ALWAYS use async/await over chained `.then()` or `.catch()` handling or
+  callback functions when using Promises.
 - If the project is not using Deno, using node.js as a fallback is fine.
 
 ## Python
