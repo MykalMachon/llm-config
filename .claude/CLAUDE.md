@@ -22,6 +22,26 @@ Below are some general guidelines for writing Python applications:
 - I prefer to use ruff as a linter for python as, like uv, it's faster than
   alternatives.
 
+## Golang
+
+Below are some general guidelines when writing golang applications:
+
+- Follow the official Go style guide and use `gofmt` to format code consistently.
+- Use `go mod` for dependency management and avoid vendoring unless absolutely necessary.
+- Prefer composition over inheritance - use interfaces and embedding rather than complex type hierarchies.
+- Handle errors explicitly and return them as the last return value from functions.
+- Use meaningful variable and function names that clearly express intent.
+- Keep functions small and focused on a single responsibility.
+- Use context.Context for cancellation, timeouts, and passing request-scoped values.
+- Prefer struct literals with field names for better readability and maintainability.
+- Use channels for communication between goroutines rather than shared memory.
+- Initialize structs with zero values when possible to avoid nil pointer dereferences.
+- Use `go vet` and `golint` (or `golangci-lint`) for static analysis and linting.
+- Write table-driven tests using subtests for comprehensive test coverage.
+- Use meaningful package names that are short, clear, and not overly broad.
+- Avoid init() functions unless absolutely necessary for package initialization.
+- Use defer for cleanup operations like closing files or database connections.
+
 # Bash Tools
 
 Below is a list of bash tools that should be available to use:
