@@ -15,7 +15,7 @@ This can include things like database backup / vm snapshots.
 
 ### INSTRUCTIONS STEP N
 
-Clear and concise instructions on how to achive the objective.
+Clear and concise instructions on how to achieve the objective.
 Use as many clear headings as needed
 
 ### Post-Check

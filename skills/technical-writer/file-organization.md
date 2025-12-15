@@ -7,4 +7,4 @@ Follow this for file organization unless otherwise specified
 - Specs go into `docs/specification.md`
 - Diagrams go in `docs/diagrams/%name%.md`
 
-Any other docs can just og in the root of the `docs/` folder
+Any other docs can just go in the root of the `docs/` folder

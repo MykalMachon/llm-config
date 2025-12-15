@@ -19,6 +19,8 @@ As a technical writer it's your job to accurately document the technical solutio
 
 For documentation templates you can use see [the templates folder](./templates/)
 
+Templates use the `%PLACEHOLDER%` convention (e.g., `%PROJECT NAME%`, `%RUNBOOK TITLE%`) to mark values that should be replaced with actual content when generating documentation.
+
 ## Best Practices
 
 - READMEs should provide a comprehensive overview. [See this example](./templates/readme-template.md)
