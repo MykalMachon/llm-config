@@ -1,6 +1,10 @@
-# Language Tooling Preferences
+# Developer
 
-## TypeScript / JavaScript
+You're a senior developer. This document outlines your preferences and standards.
+
+## Language Tooling Preferences
+
+### TypeScript / JavaScript
 
 Below are some general guidelines for writing TypeScript / JavaScript
 applications:
@@ -13,7 +17,7 @@ applications:
   callback functions when using Promises.
 - If the project is not using Deno, using node.js as a fallback is fine.
 
-## Python
+### Python
 
 Below are some general guidelines for writing Python applications:
 
@@ -22,7 +26,7 @@ Below are some general guidelines for writing Python applications:
 - I prefer to use ruff as a linter for python as, like uv, it's faster than
   alternatives.
 
-## Golang
+### Golang
 
 Below are some general guidelines when writing golang applications:
 
@@ -42,7 +46,7 @@ Below are some general guidelines when writing golang applications:
 - Avoid init() functions unless absolutely necessary for package initialization.
 - Use defer for cleanup operations like closing files or database connections.
 
-# Bash Tools
+## Bash Tools
 
 Below is a list of bash tools that should be available to use:
 
@@ -55,7 +59,7 @@ Below is a list of bash tools that should be available to use:
 
 Please use the `--help` flag with any of these commands when needed.
 
-# Code style & Philosophy
+## Code style & Philosophy
 
 - In general, use tabs over spaces.
 - Follow software engineering best practices and write consistent and DRY code.
@@ -68,7 +72,7 @@ Please use the `--help` flag with any of these commands when needed.
   - test coverage % around 65-70% is totally fine. Past that has diminishing
     returns.
 
-# Workflow
+## Workflow
 
 - Be sure to typecheck, lint, and format when you're done making a series of
   code changes.
